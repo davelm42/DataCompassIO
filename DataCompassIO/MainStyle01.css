@@ -1,0 +1,91 @@
+﻿/* Main Styling */
+body {
+    background-color: #F0E3CF; /* Warm parchment base */
+    background-image: url('subtle-map-texture.png'); /* Faint map-like texture */
+    color: #2D221D; /* Main text */
+    font-family: 'Georgia', serif; /* A classic serif font */
+}
+
+h1, h2, h3 {
+    color: #614631; /* Darker brown for headlines */
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    line-height: 1.6; /* Increase line spacing for readability */
+}
+
+a {
+    color: #006D77; /* Teal links */
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Navigation Styling */
+nav {
+    background-color: #8D6645; /* Leather brown color */
+    padding: 15px;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+/* Button Styling */
+button {
+    background-color: #006D77; /* Teal Accent Color */
+    color: #fff; /* White text */
+    border: 2px solid #B5905B; /* Brassy Border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Data Visualizations */
+.data-visualization {
+    border: 1px solid #B3C1C5; /* Muted blue-gray */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #614631;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Adjustments (Add media queries as needed) */
+@media screen and (max-width: 768px) {
+    /* adjust styles for smaller screen sizes */
+}
